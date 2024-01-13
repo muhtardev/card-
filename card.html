@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>credit-card</title>
+    <link rel="stylesheet" href="./card.css" />
+  </head>
+  <body>
+    <section id="credit-cards">
+      <div class="container">
+        <div class="credit-cards">
+          <h1>Checkout</h1>
+          <h2>€ 300,00</h2>
+          <div class="setting">
+            <p>Saved Cards</p>
+            <h4>+ Add New</h4>
+          </div>
+          <div class="list"></div>
+          <button class="delete">delete</button>
+        </div>
+
+        <div class="add-info">
+          <h1>Add new card</h1>
+          <div class="inputs">
+            <h3>Enter details</h3>
+
+            <label 
+            >Name<input class="name"
+             type="text" /></label>
+
+            <label
+              >Card number<input class="number"
+                type="number"
+                placeholder="0000-0000-0000-0000"
+            /></label>
+
+            <label 
+              >Expiry date<input class="date" type="number" 
+              placeholder="10/2024"
+            /></label>
+
+            <label 
+            >Cvv <input class="cvv" type="number" /></label>
+          </div>
+          <button class="save">save</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
